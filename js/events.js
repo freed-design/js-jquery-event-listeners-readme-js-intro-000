@@ -2,6 +2,7 @@
 function getIt() {
   alert("Hey!");
   console.log();("getIt ran!")
+}
 
 function frameIt() {
   $("img").addClass("tasty");
