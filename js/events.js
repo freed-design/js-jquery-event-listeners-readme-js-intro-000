@@ -1,7 +1,7 @@
 //define functions here
 function getIt() {
   alert("Hey!");
-  console.lot("getIt ran!")
+  console.log();("getIt ran!")
 
 function frameIt() {
   $("img").addClass("tasty");
