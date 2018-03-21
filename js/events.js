@@ -4,6 +4,7 @@ function getIt() {
 
 function frameIt() {
   $("img").addClass("tasty");
+  console.log("framIt Ran!!!")
 }
 
 function pressIt() {
