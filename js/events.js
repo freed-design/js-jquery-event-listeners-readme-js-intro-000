@@ -11,9 +11,6 @@ function pressIt() {
 
 }
 
-function pressIt() {
-
-}
 
 }
 
