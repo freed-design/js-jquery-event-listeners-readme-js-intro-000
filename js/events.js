@@ -7,12 +7,14 @@ function getIt() {
 }
 
 function frameIt() {
-  $("img").addClass("tasty");
-  console.log("framIt Ran!!!")
+  $('img').on("load", function()
+    $("img").addClass("tasty");
+    console.log("framIt Ran!!!")
+  )
 }
 
 function pressIt() {
-  
+
 }
 
 
@@ -21,8 +23,8 @@ function pressIt() {
 $(document).ready(function(){
 
 // call functions here
-  
-  $('img').on("load", frameIt())
+
+
   $('form input').on('keydown', pressIt())
 
 });
